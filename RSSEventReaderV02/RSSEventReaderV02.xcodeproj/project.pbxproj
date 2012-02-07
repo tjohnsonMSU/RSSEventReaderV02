@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D614E30914DFC50A00F4EBF9 /* REWebEventView.m in Sources */ = {isa = PBXBuildFile; fileRef = D614E30714DFC50A00F4EBF9 /* REWebEventView.m */; };
+		D614E30A14DFC50A00F4EBF9 /* REWebEventView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D614E30814DFC50A00F4EBF9 /* REWebEventView.xib */; };
+		D6C1DBAB14DCFC3E004DB82A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C1DBAA14DCFC3E004DB82A /* UIKit.framework */; };
+		D6C1DBAD14DCFC3E004DB82A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C1DBAC14DCFC3E004DB82A /* Foundation.framework */; };
+		D6C1DBAF14DCFC3E004DB82A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C1DBAE14DCFC3E004DB82A /* CoreGraphics.framework */; };
+		D6C1DBB514DCFC3E004DB82A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6C1DBB314DCFC3E004DB82A /* InfoPlist.strings */; };
+		D6C1DBB714DCFC3E004DB82A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C1DBB614DCFC3E004DB82A /* main.m */; };
+		D6C1DBBB14DCFC3E004DB82A /* REAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C1DBBA14DCFC3E004DB82A /* REAppDelegate.m */; };
+		D6C1DBBE14DCFC3E004DB82A /* REViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C1DBBD14DCFC3E004DB82A /* REViewController.m */; };
+		D6C1DBC114DCFC3E004DB82A /* REViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6C1DBBF14DCFC3E004DB82A /* REViewController.xib */; };
+		D6C1DBC914DCFD25004DB82A /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C1DBC814DCFD25004DB82A /* Event.m */; };
+		D6C1DBCF14DCFF0E004DB82A /* REEventView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C1DBCD14DCFF0E004DB82A /* REEventView.m */; };
+		D6C1DBD014DCFF0E004DB82A /* REEventView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6C1DBCE14DCFF0E004DB82A /* REEventView.xib */; };
+		D6C1DC2A14DDDED0004DB82A /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C1DC2914DDDED0004DB82A /* EventKit.framework */; };
+		D6C1DC3214DE778B004DB82A /* REEventDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C1DC3014DE778B004DB82A /* REEventDetailView.m */; };
+		D6C1DC3314DE778B004DB82A /* REEventDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6C1DC3114DE778B004DB82A /* REEventDetailView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D614E30614DFC50A00F4EBF9 /* REWebEventView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REWebEventView.h; sourceTree = "<group>"; };
+		D614E30714DFC50A00F4EBF9 /* REWebEventView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REWebEventView.m; sourceTree = "<group>"; };
+		D614E30814DFC50A00F4EBF9 /* REWebEventView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = REWebEventView.xib; sourceTree = "<group>"; };
+		D6C1DBA614DCFC3E004DB82A /* RSSEventReaderV02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSEventReaderV02.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C1DBAA14DCFC3E004DB82A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D6C1DBAC14DCFC3E004DB82A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D6C1DBAE14DCFC3E004DB82A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D6C1DBB214DCFC3E004DB82A /* RSSEventReaderV02-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RSSEventReaderV02-Info.plist"; sourceTree = "<group>"; };
+		D6C1DBB414DCFC3E004DB82A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D6C1DBB614DCFC3E004DB82A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6C1DBB814DCFC3E004DB82A /* RSSEventReaderV02-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSSEventReaderV02-Prefix.pch"; sourceTree = "<group>"; };
+		D6C1DBB914DCFC3E004DB82A /* REAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = REAppDelegate.h; sourceTree = "<group>"; };
+		D6C1DBBA14DCFC3E004DB82A /* REAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = REAppDelegate.m; sourceTree = "<group>"; };
+		D6C1DBBC14DCFC3E004DB82A /* REViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = REViewController.h; sourceTree = "<group>"; };
+		D6C1DBBD14DCFC3E004DB82A /* REViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = REViewController.m; sourceTree = "<group>"; };
+		D6C1DBC014DCFC3E004DB82A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/REViewController.xib; sourceTree = "<group>"; };
+		D6C1DBC714DCFD25004DB82A /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		D6C1DBC814DCFD25004DB82A /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		D6C1DBCC14DCFF0E004DB82A /* REEventView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REEventView.h; sourceTree = "<group>"; };
+		D6C1DBCD14DCFF0E004DB82A /* REEventView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REEventView.m; sourceTree = "<group>"; };
+		D6C1DBCE14DCFF0E004DB82A /* REEventView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = REEventView.xib; sourceTree = "<group>"; };
+		D6C1DC2914DDDED0004DB82A /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		D6C1DC2F14DE778B004DB82A /* REEventDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REEventDetailView.h; sourceTree = "<group>"; };
+		D6C1DC3014DE778B004DB82A /* REEventDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REEventDetailView.m; sourceTree = "<group>"; };
+		D6C1DC3114DE778B004DB82A /* REEventDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = REEventDetailView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6C1DBA314DCFC3E004DB82A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C1DC2A14DDDED0004DB82A /* EventKit.framework in Frameworks */,
+				D6C1DBAB14DCFC3E004DB82A /* UIKit.framework in Frameworks */,
+				D6C1DBAD14DCFC3E004DB82A /* Foundation.framework in Frameworks */,
+				D6C1DBAF14DCFC3E004DB82A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6C1DB9B14DCFC3D004DB82A = {
+			isa = PBXGroup;
+			children = (
+				D6C1DBB014DCFC3E004DB82A /* RSSEventReaderV02 */,
+				D6C1DBA914DCFC3E004DB82A /* Frameworks */,
+				D6C1DBA714DCFC3E004DB82A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6C1DBA714DCFC3E004DB82A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6C1DBA614DCFC3E004DB82A /* RSSEventReaderV02.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6C1DBA914DCFC3E004DB82A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6C1DC2914DDDED0004DB82A /* EventKit.framework */,
+				D6C1DBAA14DCFC3E004DB82A /* UIKit.framework */,
+				D6C1DBAC14DCFC3E004DB82A /* Foundation.framework */,
+				D6C1DBAE14DCFC3E004DB82A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6C1DBB014DCFC3E004DB82A /* RSSEventReaderV02 */ = {
+			isa = PBXGroup;
+			children = (
+				D6C1DBB914DCFC3E004DB82A /* REAppDelegate.h */,
+				D6C1DBBA14DCFC3E004DB82A /* REAppDelegate.m */,
+				D6C1DBBC14DCFC3E004DB82A /* REViewController.h */,
+				D6C1DBBD14DCFC3E004DB82A /* REViewController.m */,
+				D6C1DBBF14DCFC3E004DB82A /* REViewController.xib */,
+				D6C1DBCC14DCFF0E004DB82A /* REEventView.h */,
+				D6C1DBCD14DCFF0E004DB82A /* REEventView.m */,
+				D6C1DBCE14DCFF0E004DB82A /* REEventView.xib */,
+				D6C1DC2F14DE778B004DB82A /* REEventDetailView.h */,
+				D6C1DC3014DE778B004DB82A /* REEventDetailView.m */,
+				D6C1DC3114DE778B004DB82A /* REEventDetailView.xib */,
+				D614E30614DFC50A00F4EBF9 /* REWebEventView.h */,
+				D614E30714DFC50A00F4EBF9 /* REWebEventView.m */,
+				D614E30814DFC50A00F4EBF9 /* REWebEventView.xib */,
+				D6C1DBC714DCFD25004DB82A /* Event.h */,
+				D6C1DBC814DCFD25004DB82A /* Event.m */,
+				D6C1DBB114DCFC3E004DB82A /* Supporting Files */,
+			);
+			path = RSSEventReaderV02;
+			sourceTree = "<group>";
+		};
+		D6C1DBB114DCFC3E004DB82A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6C1DBB214DCFC3E004DB82A /* RSSEventReaderV02-Info.plist */,
+				D6C1DBB314DCFC3E004DB82A /* InfoPlist.strings */,
+				D6C1DBB614DCFC3E004DB82A /* main.m */,
+				D6C1DBB814DCFC3E004DB82A /* RSSEventReaderV02-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6C1DBA514DCFC3E004DB82A /* RSSEventReaderV02 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6C1DBC414DCFC3E004DB82A /* Build configuration list for PBXNativeTarget "RSSEventReaderV02" */;
+			buildPhases = (
+				D6C1DBA214DCFC3E004DB82A /* Sources */,
+				D6C1DBA314DCFC3E004DB82A /* Frameworks */,
+				D6C1DBA414DCFC3E004DB82A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSSEventReaderV02;
+			productName = RSSEventReaderV02;
+			productReference = D6C1DBA614DCFC3E004DB82A /* RSSEventReaderV02.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6C1DB9D14DCFC3D004DB82A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = D6C1DBA014DCFC3D004DB82A /* Build configuration list for PBXProject "RSSEventReaderV02" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D6C1DB9B14DCFC3D004DB82A;
+			productRefGroup = D6C1DBA714DCFC3E004DB82A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6C1DBA514DCFC3E004DB82A /* RSSEventReaderV02 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6C1DBA414DCFC3E004DB82A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C1DBB514DCFC3E004DB82A /* InfoPlist.strings in Resources */,
+				D6C1DBC114DCFC3E004DB82A /* REViewController.xib in Resources */,
+				D6C1DBD014DCFF0E004DB82A /* REEventView.xib in Resources */,
+				D6C1DC3314DE778B004DB82A /* REEventDetailView.xib in Resources */,
+				D614E30A14DFC50A00F4EBF9 /* REWebEventView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6C1DBA214DCFC3E004DB82A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C1DBB714DCFC3E004DB82A /* main.m in Sources */,
+				D6C1DBBB14DCFC3E004DB82A /* REAppDelegate.m in Sources */,
+				D6C1DBBE14DCFC3E004DB82A /* REViewController.m in Sources */,
+				D6C1DBC914DCFD25004DB82A /* Event.m in Sources */,
+				D6C1DBCF14DCFF0E004DB82A /* REEventView.m in Sources */,
+				D6C1DC3214DE778B004DB82A /* REEventDetailView.m in Sources */,
+				D614E30914DFC50A00F4EBF9 /* REWebEventView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D6C1DBB314DCFC3E004DB82A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6C1DBB414DCFC3E004DB82A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D6C1DBBF14DCFC3E004DB82A /* REViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6C1DBC014DCFC3E004DB82A /* en */,
+			);
+			name = REViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6C1DBC214DCFC3E004DB82A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D6C1DBC314DCFC3E004DB82A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6C1DBC514DCFC3E004DB82A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSSEventReaderV02/RSSEventReaderV02-Prefix.pch";
+				INFOPLIST_FILE = "RSSEventReaderV02/RSSEventReaderV02-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D6C1DBC614DCFC3E004DB82A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSSEventReaderV02/RSSEventReaderV02-Prefix.pch";
+				INFOPLIST_FILE = "RSSEventReaderV02/RSSEventReaderV02-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6C1DBA014DCFC3D004DB82A /* Build configuration list for PBXProject "RSSEventReaderV02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C1DBC214DCFC3E004DB82A /* Debug */,
+				D6C1DBC314DCFC3E004DB82A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6C1DBC414DCFC3E004DB82A /* Build configuration list for PBXNativeTarget "RSSEventReaderV02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C1DBC514DCFC3E004DB82A /* Debug */,
+				D6C1DBC614DCFC3E004DB82A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6C1DB9D14DCFC3D004DB82A /* Project object */;
+}
