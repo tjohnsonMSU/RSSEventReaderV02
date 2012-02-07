@@ -1,0 +1,8 @@
+README - RSSEventReaderV02
+
+Prototype iOS module for Midwestern State University's iMustangs application.  Reads and parses MSU athletic events RSS feed.  Saves the events and associated event data as event objects.  This version stores all of the events in an array.  Future versions will use Core Data / SQL.  Event list is displayed in a UITableView.  An event detail view is available by selecting a cell in the table view.  The user may add selected events to the iPhone's calendar if desired.
+
+Future changes / improvements:
+Core Data / SQL.
+Flagging of events that have been added to calendar.
+Calendar alerts.
